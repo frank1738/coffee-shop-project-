@@ -12,7 +12,8 @@ This is my coffee-shop-project whose main focus is to test my understanding in H
 *Open Git Bash.</br>
 *Change the current working directory to the location where you want the cloned directory.</br>
 *Type git clone, and then paste the URL you copied earlier.</br>
-*Press Enter to create your local clone.
+*Press Enter to create your local clone.</br>
+**[Live Demo] **(https://frank1738.github.io/coffee-shop-project-/)
 
 **Authors** <br>
 👤 Me
