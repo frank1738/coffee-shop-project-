@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mobile-container {
+  width: 100%;
+  box-shadow: 0 0 10px grey;
+  background:
+    linear-gradient(rgba(255 255 255/ 85%), rgba(255 255 255/ 85%)),
+    url("./images/bodyBcg.jpeg");
+}
+
+.story-img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 2rem;
+  border-radius: 0.2rem;
+}
+
+.about-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.switch-btn {
+  display: none;
+}
+
+.work-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition:
+    transform 1s cubic-bezier(0.5, 0, 0.5, 1),
+    opacity 1s linear;
+}
+
+.background-video {
+  display: none;
+}
+
+.work-img:hover {
+  transform: scale(1.2);
+  opacity: 0.75;
+}
+
+.navigation {
+  width: 100%;
+  padding: 10rem 5rem;
+  height: 100vh;
+  background-image: url("./images/headerBcg.jpeg");
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header {
+  font-family: "La Belle Aurore", sans-serif;
+  font-size: 4rem;
+  color: #e3b505;
+  z-index: 5;
+}
+
+.social-links {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.fa-brands {
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.4rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-brands:hover {
+  background-color: #e3b505;
+}
+
+.fa-bars {
+  color: rgb(242 180 80);
+  font-size: 2.5rem;
+  position: fixed;
+  top: 5%;
+  left: 85%;
+  animation-name: anime;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+  z-index: 10;
+}
+
+@keyframes anime {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.story {
+  padding: 1.2rem;
+  margin-top: 3rem;
+}
+
+.story-header {
+  font-family: "La Belle Aurore", sans-serif;
+  font-size: 2.5rem;
+}
+
+.underline {
+  width: 20%;
+  height: 0.3rem;
+  background-color: rgb(242 180 80);
+}
+
+.story-description {
+  font-family: poppins, sans-serif;
+  margin-top: 1rem;
+}
+
+.about-us {
+  padding: 1.2rem;
+}
+
+.sign-up {
+  background-color: #382923;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 70%;
+}
+
+.sign-header {
+  font-family: "La Belle Aurore", sans-serif;
+  font-size: 2.5rem;
+  color: #e3b505;
+  text-align: center;
+}
+
+.input {
+  font-family: poppins, sans-serif;
+  margin-top: 0.5rem;
+  border: 1px solid #382923;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(111 87 77/ 60%);
+  outline: none;
+  color: #bb9457;
+}
+
+.submit-btn {
+  margin-top: 0.5rem;
+  font-family: poppins, sans-serif;
+  border: 1px solid #382923;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  background: #f2b450;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+}
+
+.work-header {
+  text-align: center;
+  font-family: "La Belle Aurore", sans-serif;
+  font-size: 2.5rem;
+}
+
+.underline.second {
+  align-self: center;
+}
+
+.work-items {
+  margin-top: 2rem;
+}
+
+.work-item {
+  overflow: hidden;
+}
+
+.contact-us {
+  padding: 3rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.contact-header {
+  font-family: "La Belle Aurore", sans-serif;
+  font-size: 2.5rem;
+  text-align: start;
+}
+
+.underline.map {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.adress-div {
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.adress-header {
+  color: #191919;
+  margin: 0.5rem 0;
+}
+
+.address {
+  color: #a9b2ac;
+  font-size: 0.8rem;
+}
+
+.fa-map-pin {
+  color: rgb(242 180 80);
+  font-size: 2.5rem;
+}
+
+.fa-headphones-simple {
+  font-size: 2.5rem;
+  color: rgb(242 180 80);
+}
+
+.fa-clock {
+  font-size: 2.5rem;
+  color: rgb(242 180 80);
+}
+
+.our-contact {
+  display: flex;
+}
+
+.fa-phone-flip {
+  font-size: 0.8rem;
+  color: #a9b2ac;
+  margin-right: 0.2rem;
+}
+
+.fa-envelope {
+  font-size: 0.8rem;
+  color: #a9b2ac;
+  margin-right: 0.2rem;
+}
+
+.support {
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+}
+
+.time {
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+}
+
+.menu-bar {
+  width: 0%;
+  position: fixed;
+  height: 100vh;
+  z-index: 10;
+  left: 0%;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  background-color: rgb(242 180 80 / 90%);
+}
+
+.link-item {
+  list-style: none;
+  padding: 0.6rem;
+  transition: all 0.5s ease-in-out;
+  text-align: start;
+}
+
+.link-item:hover {
+  background-color: #382923;
+  color: white;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-family: poppins, sans-serif;
+  font-size: 1.2rem;
+  color: #382923;
+  margin-left: 1rem;
+  transition: all 1s ease-in-out;
+}
+
+.menu-link:hover {
+  color: rgb(242 180 80 / 90%);
+}
+
+.menu-links {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.menu-bar.show {
+  width: 40%;
+}
+
+.logo-img {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 9rem;
+  }
+
+  .work {
+    padding: 4rem;
+  }
+
+  .breaker {
+    display: none;
+  }
+
+  .menu-bar.show {
+    width: 15%;
+  }
+
+  .social-links {
+    width: 25%;
+    z-index: 2;
+    margin-left: 2rem;
+  }
+
+  .story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .story-img {
+    width: 35%;
+  }
+
+  .story-desc-div {
+    width: 30%;
+    margin-right: 5rem;
+  }
+
+  .story-header {
+    font-size: 4rem;
+  }
+
+  .story.second {
+    flex-direction: row-reverse;
+    margin-bottom: 2rem;
+  }
+
+  .story-img.second {
+    margin-right: 4rem;
+  }
+
+  .form-section {
+    width: 50%;
+  }
+
+  .sign-header {
+    font-size: 3rem;
+  }
+
+  .work-items {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    margin-top: 5rem;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr)/repeat(4, 1fr);
+    grid-template-areas:
+      "one one two three"
+      "one one four four"
+      "five six seven seven"
+      "eight nine seven seven";
+  }
+
+  .item-1 {
+    grid-area: one;
+  }
+
+  .item-2 {
+    grid-area: two;
+  }
+
+  .item-3 {
+    grid-area: three;
+  }
+
+  .item-4 {
+    grid-area: four;
+  }
+
+  .item-5 {
+    grid-area: five;
+  }
+
+  .item-6 {
+    grid-area: six;
+  }
+
+  .item-7 {
+    grid-area: seven;
+  }
+
+  .item-8 {
+    grid-area: eight;
+  }
+
+  .item-9 {
+    grid-area: nine;
+  }
+
+  .contact-us {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .map-header {
+    width: 60%;
+  }
+
+  .second-section {
+    margin-top: 2.8rem;
+    margin-right: 3rem;
+  }
+
+  .contact-header {
+    font-size: 3rem;
+  }
+
+  .contact-head-divs {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .adress-header {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .address {
+    font-size: 1rem;
+  }
+
+  .fa-solid.icon {
+    font-size: 1rem;
+    margin-top: 0.1rem;
+  }
+
+  .fa-solid.head {
+    font-size: 3.5rem;
+  }
+
+  .background-video {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    left: 0;
+    z-index: -1;
+  }
+
+  .switch-btn {
+    width: 6rem;
+    height: 2.2rem;
+    position: relative;
+    left: 25rem;
+    top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: poppins, sans-serif;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: rgb(242 180 80);
+  }
+
+  .toggle {
+    display: block;
+    background-color: #382923;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .toggle.hide {
+    left: 50%;
+  }
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee shop</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mobile-container">
+      <nav class="navigation" id="home">
+        <div class="menu-bar">
+          <img src="./images/navLogo.svg" alt="logo-img" class="logo-img" />
+          <ul class="menu-links">
+            <li class="link-item">
+              <a href="#home" class="menu-link">Home</a>
+            </li>
+            <li class="link-item">
+              <a href="#about" class="menu-link">About</a>
+            </li>
+            <li class="link-item">
+              <a href="#free-drink" class="menu-link">Free Drink</a>
+            </li>
+            <li class="link-item">
+              <a href="#work" class="menu-link">Work</a>
+            </li>
+            <li class="link-item">
+              <a href="#contact" class="menu-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <h1 class="header">Coffee <br class="breaker" />Junkie</h1>
+        <div class="social-links">
+          <a href="#" class="link"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+          <a href="#" class="link"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="link"><i class="fa-brands fa-google-plus"></i></a>
+          <a href="#" class="link"><i class="fa-brands fa-instagram"></i></a>
+          <i class="fa-solid fa-bars"></i>
+          <video src="./video/coffee.mp4" class="background-video" autoplay muted loop></video>
+          <div class="switch-btn">
+            <span>ON</span>
+            <span>OFF</span>
+            <div class="toggle"></div>
+          </div>
+        </div>
+      </nav>
+      <section class="story" id="about">
+        <div class="story-desc-div">
+          <h1 class="story-header">Our Story</h1>
+          <div class="underline"></div>
+          <p class="story-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            et, doloremque blanditiis tempora deserunt repudiandae!
+            Reprehenderit amet reiciendis recusandae odio.
+          </p>
+        </div>
+        <img src="./images/aboutImg-1.jpeg" alt="story-img" class="story-img" />
+      </section>
+      <section class="story second">
+        <div class="story-desc-div second">
+          <h1 class="story-header">What We Do</h1>
+          <div class="underline"></div>
+          <p class="story-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            et, doloremque blanditiis tempora deserunt repudiandae!
+            Reprehenderit amet reiciendis recusandae odio.
+          </p>
+        </div>
+        <img src="./images/aboutImg-2.jpeg" alt="" class="story-img second" />
+      </section>
+      <section class="sign-up" id="free-drink">
+        <h1 class="sign-header">
+          To Get Free <br class="breaker" />
+          Drinks
+        </h1>
+        <form action="" class="form-section" method="POST">
+          <input type="text" class="input" required placeholder="Name" />
+          <input type="text" class="input" required placeholder="Last Name" />
+          <input type="email" class="input" required placeholder="Email" />
+          <button class="submit-btn" type="submit">SIGN UP</button>
+        </form>
+        <h1 class="sign-header">Lucky People:</h1>
+      </section>
+      <section class="work" id="work">
+        <h1 class="work-header">Our Work</h1>
+        <div class="underline second"></div>
+        <div class="work-items">
+          <div class="work-item item-1">
+            <img src="./images/work-1.jpeg" alt="work-img" class="work-img" />
+          </div>
+          <div class="work-item item-2">
+            <img src="./images/work-2.jpeg" alt="work-img" class="work-img" />
+          </div>
+          <div class="work-item item-3">
+            <img src="./images/work-3.jpeg" alt="work-img" class="work-img" />
+          </div>
+          <div class="work-item item-4">
+            <img src="./images/work-8.jpeg" alt="work-img" class="work-img" />
+          </div>
+          <div class="work-item item-5">
+            <img src="./images/work-5.jpeg" alt="work-img" class="work-img" />
+          </div>
+          <div class="work-item item-6">
+            <img src="./images/work-6.jpeg" alt="work-img" class="work-img" />
+          </div>
+          <div class="work-item item-7">
+            <img src="./images/work-7.jpeg" alt="work-img" class="work-img" />
+          </div>
+          <div class="work-item item-8">
+            <img src="./images/work-8.jpeg" alt="work-img" class="work-img" />
+          </div>
+          <div class="work-item item-9">
+            <img src="./images/work-9.jpeg" alt="work-img" class="work-img" />
+          </div>
+        </div>
+      </section>
+      <section class="contact-us" id="contact">
+        <div class="map-header">
+          <div class="contact-head-divs">
+            <h1 class="contact-header">Our Work</h1>
+            <div class="underline map"></div>
+          </div>
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                width="100%"
+                height="100%"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe
+              ><a href="https://123movies-to.org"></a><br /><style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 250px;
+                  width: 100%;
+                }
+                @media (min-width: 768px) {
+                  .mapouter {
+                    height: 450px;
+                  }
+                }</style
+              ><a href="https://www.embedgooglemap.net"
+                >adding google maps to wordpress</a
+              ><style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 100%;
+                  width: 100%;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+        <div class="second-section">
+          <div class="adress-div">
+            <i class="fa-solid head fa-map-pin"></i>
+            <h2 class="adress-header"><i>ADDRESS</i></h2>
+            <p class="address">8139 W COFFEE STREET, SAN DIEGO</p>
+          </div>
+          <div class="support">
+            <i class="fa-solid head fa-headphones-simple"></i>
+            <h2 class="adress-header"><i>SUPPORT</i></h2>
+            <div class="our-contact">
+              <i class="fa-solid icon fa-phone-flip"></i>
+              <p class="address">+123 456 789</p>
+            </div>
+            <div class="our-contact">
+              <i class="fa-solid icon fa-envelope"></i>
+              <p class="address">EMAIL@EMAIL.COM</p>
+            </div>
+          </div>
+          <div class="time">
+            <i class="fa-solid head fa-clock"></i>
+            <h2 class="adress-header"><i>WORK TIME</i></h2>
+            <p class="address">MONDAY - FRIDAY 8.00AM - 8.00PM</p>
+            <p class="address">SATURDAY - SUNDAY 9.00AM -10PM</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
