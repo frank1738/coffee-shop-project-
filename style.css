@@ -79,9 +79,25 @@
   color: black;
   font-size: 1.5rem;
   padding: 0.4rem;
-  border: 1px solid black;
+  border: 1px solid rgba(0 0 0/ 50%);
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-google-plus {
+  color: #db4a39;
+}
+
+.fa-instagram {
+  color: #8a3ab9;
 }
 
 .fa-brands:hover {
