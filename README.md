@@ -1,9 +1,10 @@
 **My coffee-shop-project** <br>
-This is my coffee-shop-project whose main focus is to test my understanding in HTML,CSS, github,githubflows,version controll and to demonstrate the ability to submit a project for code review.
+This is my coffee-shop-project
 
 **Built With:**</br>
 *HTML</br>
-*CSS
+*CSS</br>
+*Javascript
 
 **To get a local copy up and running follow these simple example steps.**
 
@@ -13,7 +14,7 @@ This is my coffee-shop-project whose main focus is to test my understanding in H
 *Change the current working directory to the location where you want the cloned directory.</br>
 *Type git clone, and then paste the URL you copied earlier.</br>
 *Press Enter to create your local clone.</br>
-**[Live Demo] **(https://frank1738.github.io/coffee-shop-project-/)
+**[Live Demo]** (https://frank1738.github.io/coffee-shop-project-/)
 
 **Authors** <br>
 👤 Me
