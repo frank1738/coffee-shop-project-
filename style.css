@@ -9,7 +9,8 @@
 .mobile-container {
   width: 100%;
   box-shadow: 0 0 10px grey;
-  background: linear-gradient(rgba(255 255 255/ 85%), rgba(255 255 255/ 85%)),
+  background:
+    linear-gradient(rgba(255 255 255/ 85%), rgba(255 255 255/ 85%)),
     url('./images/bodyBcg.jpeg');
 }
 
