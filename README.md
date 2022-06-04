@@ -1,5 +1,5 @@
 **My coffee-shop-project** <br>
-This is my coffee-junkey-project
+This is a poduct landing page for a Coffee shop
 
 **Built With:**</br>
 *HTML</br>
