@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans");
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans');
 
 * {
   margin: 0;
@@ -9,9 +9,8 @@
 .mobile-container {
   width: 100%;
   box-shadow: 0 0 10px grey;
-  background:
-    linear-gradient(rgba(255 255 255/ 85%), rgba(255 255 255/ 85%)),
-    url("./images/bodyBcg.jpeg");
+  background: linear-gradient(rgba(255 255 255/ 85%), rgba(255 255 255/ 85%)),
+    url('./images/bodyBcg.jpeg');
 }
 
 .story-img {
@@ -34,9 +33,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition:
-    transform 1s cubic-bezier(0.5, 0, 0.5, 1),
-    opacity 1s linear;
+  transition: transform 1s cubic-bezier(0.5, 0, 0.5, 1), opacity 1s linear;
 }
 
 .background-video {
@@ -52,7 +49,7 @@
   width: 100%;
   padding: 10rem 5rem;
   height: 100vh;
-  background-image: url("./images/headerBcg.jpeg");
+  background-image: url('./images/headerBcg.jpeg');
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -63,7 +60,7 @@
 }
 
 .header {
-  font-family: "La Belle Aurore", sans-serif;
+  font-family: 'La Belle Aurore', sans-serif;
   font-size: 4rem;
   color: #e3b505;
   z-index: 5;
@@ -137,7 +134,7 @@
 }
 
 .story-header {
-  font-family: "La Belle Aurore", sans-serif;
+  font-family: 'La Belle Aurore', sans-serif;
   font-size: 2.5rem;
 }
 
@@ -173,7 +170,7 @@
 }
 
 .sign-header {
-  font-family: "La Belle Aurore", sans-serif;
+  font-family: 'La Belle Aurore', sans-serif;
   font-size: 2.5rem;
   color: #e3b505;
   text-align: center;
@@ -207,7 +204,7 @@
 
 .work-header {
   text-align: center;
-  font-family: "La Belle Aurore", sans-serif;
+  font-family: 'La Belle Aurore', sans-serif;
   font-size: 2.5rem;
 }
 
@@ -231,7 +228,7 @@
 }
 
 .contact-header {
-  font-family: "La Belle Aurore", sans-serif;
+  font-family: 'La Belle Aurore', sans-serif;
   font-size: 2.5rem;
   text-align: start;
 }
@@ -414,12 +411,12 @@
     padding: 0;
     margin-top: 5rem;
     height: 100vh;
-    grid-template-columns: repeat(4, 1fr)/repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr) / repeat(4, 1fr);
     grid-template-areas:
-      "one one two three"
-      "one one four four"
-      "five six seven seven"
-      "eight nine seven seven";
+      'one one two three'
+      'one one four four'
+      'five six seven seven'
+      'eight nine seven seven';
   }
 
   .item-1 {
