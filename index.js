@@ -3,9 +3,8 @@ const menu = document.querySelector('.fa-bars');
 const switchToggle = document.querySelector('.toggle');
 const switchBtn = document.querySelector('.switch-btn');
 const Video = document.querySelector('.background-video');
-var playing = true;
-switchBtn.addEventListener('click', Switch);
-menu.addEventListener('click', showBar);
+let playing = true;
+
 function showBar() {
   menuBar.classList.toggle('show');
 }
@@ -20,3 +19,6 @@ function Switch() {
     playing = true;
   }
 }
+
+switchBtn.addEventListener('click', Switch);
+menu.addEventListener('click', showBar);
