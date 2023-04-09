@@ -6,11 +6,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .mobile-container {
   width: 100%;
   box-shadow: 0 0 10px grey;
-  background:
-    linear-gradient(rgba(255 255 255/ 85%), rgba(255 255 255/ 85%)),
+  background: linear-gradient(rgba(255 255 255/ 85%), rgba(255 255 255/ 85%)),
     url('./images/bodyBcg.jpeg');
 }
 
@@ -31,7 +34,7 @@ iframe {
   width: 100%;
   position: relative;
   text-align: right;
-  height: 250px;
+  height: 475px;
 }
 
 .about-img {
@@ -369,10 +372,6 @@ iframe {
 @media (min-width: 768px) {
   .header {
     font-size: 9rem;
-  }
-
-  .mapouter {
-    height: 6000px;
   }
 
   .work {
